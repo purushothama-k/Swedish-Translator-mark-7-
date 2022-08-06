@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  background-image: linear-gradient(
+    to right,rgb(174, 75, 75),
+    rgb(204, 127, 68),
+    rgb(182, 95, 185)
+  );
+  padding: 1rem 0;
+}
+#text-input {
+  padding: 1rem;
+  width: 60vw;
+  height: 20vh;
+  margin: 4rem auto;
+  display: block;
+  font-size: 1.2rem;
+}
+
+#btn-translate {
+  border: none;
+  margin-left: 20vw;
+  padding: 1rem 1.5rem;
+  background-color: rgb(187, 193, 190);
+  font-size: 21px;
+  color: black;
+  border-radius: 0.5rem;
+}
+#output {
+  border: rgb(71, 67, 67) 1.5px solid;
+  width: 60vw;
+  height: 20vh;
+  margin: 1rem auto;
+  display: block;
+  font-size: 1.2rem;
+}
+
+#output-heading {
+  display: block;
+  font-size: 1.2rem;
+  margin-left: 20vw;
+  margin-top: 2rem;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,rgb(174, 75, 75),
+    rgb(204, 127, 68),
+    rgb(182, 95, 185)
+  );
+  margin-top: 5.1rem;
+  padding: 1rem 0;
+}
